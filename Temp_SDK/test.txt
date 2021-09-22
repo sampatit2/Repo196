@@ -1,0 +1,14 @@
+   participants(first: 10) {
+            edges {
+              node {
+                pullRequests(first: 10) {
+                  totalCount
+                  edges {
+                    node {
+                      author {
+                        login
+                        url
+                      }
+                    }
+                  }
+                }
